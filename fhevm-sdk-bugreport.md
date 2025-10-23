@@ -137,16 +137,7 @@ Always log or rethrow errors.
 - Audit all error handling to ensure errors are logged or surfaced.  
 - Add `pnpm` test cases for encrypt/decrypt error propagation.
 
----
 
-## 💰 Suggested Bounty Classification
-
-| Impact   | Title                                   | Bounty Range |
-|----------|-----------------------------------------|--------------|
-| 🔴 High  | Sensitive key exposure inside SDK       | $400–$800    |
-| 🟠 Medium| Silent failure during FHE decryption    | $200–$400    |
-| 🟠 Medium| Information leak via console logging    | $200–$400    |
-| 🟡 Low   | Type safety + error handling improvements | $50–$150     |
 
 ---
 
